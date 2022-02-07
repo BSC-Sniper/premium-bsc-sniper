@@ -14,11 +14,11 @@ BSC Sniper es una herramienta que te ayudará a comprar token de proyectos en la
 
 1. Clona (Descarga) este repositorio <a href="https://github.com/BSC-Sniper/premium-bsc-sniper">aqui</a>.
 2. Descargaras un archivo .zip. Extráelo en tu Escritorio o cualquier carpeta que quieras.
-3. Una vez extraido el .zip, vas a ver una carpeta que se llama _"free-bsc-sniper"_ y dentro de ella alrededor de 56 archivos (**NO ELIMINES NI CAMBIES NIGUN ARCHIVO**). Estos son los más importantes:
+3. Una vez extraido el .zip, vas a ver una carpeta que se llama _"premium-bsc-sniper"_ y dentro de ella alrededor de 56 archivos (**NO ELIMINES NI CAMBIES NIGUN ARCHIVO**). Estos son los más importantes:
     - **config.json** ; el más importante. Este es el que contiene los datos para tus consultas y transacciones.
     - **abi.json** ; este es el de los contractos ABI. No necesitas cambiar nada aqui, a menos que necesites. Los ABI son los parametros que puedes leer/escribir en los contractos en la BSC. Si eres curioso y quieres aprender un poco más sobre esto: https://www.quicknode.com/guides/solidity/what-is-an-abi
     - **bscsniper.exe** ; el ejecutable, la magia.
-4. Copia la ruta de la carpeta donde descomprimiste el .zip (ejemplo: C:\Users\user\free-bsc-sniper\bscsniper) y luego abre el terminal cmd (_Windows Search > cmd_) y ve a la carpeta que acabas de copiar usando el comando `cd` (cambiar directorio) > ejemplo: `cd C:\Users\user\free-bsc-sniper\bscsniper`
+4. Copia la ruta de la carpeta donde descomprimiste el .zip (ejemplo: C:\Users\user\premium-bsc-sniper\bscsniper) y luego abre el terminal cmd (_Windows Search > cmd_) y ve a la carpeta que acabas de copiar usando el comando `cd` (cambiar directorio) > ejemplo: `cd C:\Users\user\premium-bsc-sniper\bscsniper`
 5. Ya estas listo para ejecutar. Puedes ejecutar `bscsniper.exe --help` y encontraras todas las opciones disponibles.
 
 <H2>Archivo de Configuración (config.json)</H2>
