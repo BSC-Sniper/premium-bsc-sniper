@@ -12,7 +12,7 @@ BSC Sniper es una herramienta que te ayudará a comprar token de proyectos en la
 
 <H2>Empezemos</H2>
 
-1. Clona (Descarga) este repositorio <a href="https://github.com/BSC-Sniper/free-bsc-sniper">aqui</a>.
+1. Clona (Descarga) este repositorio <a href="https://github.com/BSC-Sniper/premium-bsc-sniper">aqui</a>.
 2. Descargaras un archivo .zip. Extráelo en tu Escritorio o cualquier carpeta que quieras.
 3. Una vez extraido el .zip, vas a ver una carpeta que se llama _"free-bsc-sniper"_ y dentro de ella alrededor de 56 archivos (**NO ELIMINES NI CAMBIES NIGUN ARCHIVO**). Estos son los más importantes:
     - **config.json** ; el más importante. Este es el que contiene los datos para tus consultas y transacciones.
@@ -71,7 +71,7 @@ Ok. Que funciones tienes disponibles para usar:
 
  <H2>¿Cómo usas estas funciones?</H2>
 
- Fácil. Si seguiste correctamente el apartado  "Empezemos" y "Archivo de configuración" estas listo para iniciar.
+ Fácil. Si seguiste correctamente el apartado "Empezemos" y "Archivo de configuración" estas listo para iniciar.
 
  En tu linea de comando cmd (recuerda, debes estar en la carpeta donde descomprimiste los archivos), execute `bscsniper.exe --help` or `-h`. Ahí encontraras todas las opciones que mencioné antes:
 ```
@@ -143,7 +143,7 @@ bscsniper.exe -c 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 -s BNB -g 5 -a 0.1 -
 ```
 bscsniper.exe -c 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 -s BNB -g 5 -a 10 --sell
 ```
- - Es el mismo proceso de comprar pero en vez de usar `--buy`, debes usar **`--sell`**, y tienes que cambiar  `-a` por la cantidad de tokens que quieras vender por BNB. Por ejemplo, si quieres vender " 10 CAKE", debes colocar `-a 10` y vas a cambiar 10 CAKE por BNB, al precio del momento. **Importante: La caracteristica de vender solo funciona para BNB, no para BUSD, por ahora**
+ - Es el mismo proceso de comprar pero en vez de usar `--buy`, debes usar **`--sell`**, y tienes que cambiar  `-a` por la cantidad de tokens que quieras vender por BNB. Por ejemplo, si quieres vender " 10 CAKE", debes colocar `-a 10` y vas a cambiar 10 CAKE por BNB, al precio del momento. Si quieres vender todos los tokens de un contrato, simplemente usa la función **`--sellAll`**.
 
 ## PROBLEMAS
 Hay algunas razones por las cuales tu transaccion puede fallar:
