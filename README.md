@@ -24,7 +24,7 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
     * ApeSwap
     * BiSwap
     * BabySwap
-    * Any Swap on BSC that has router/factory contracts.
+    * Any DEX on BSC that has router/factory contracts.
   * Sell after Buy (if you want)
   * Sell all (sell all your tokens from one contract).
   * Technical Support
