@@ -138,24 +138,4 @@ bscsniper.exe -c 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 -s BNB -g 5 -a 0.1 -
 ```
 bscsniper.exe -c 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 -s BNB -g 5 -a 10 --sell
 ```
- - It's the same buy process but instead using `--buy` you have to use **`--sell`**, and you have to change `-a` for the amount of tokens that to want to sell. For example if you want to sell "10 CAKE" you have to put `-a 10` and you will swap 10 CAKE for BNB. **Important: The sell feature only works for BNB. Not for BUSD, for now.**
-
-You will be wondering **"where is the SLIPPAGE?"**... well, this is the first version, and it works FINE. When you are entering in a token launch you have to configure a higher SLIPPAGE. This tools, FOR NOW, is configured to execute the transactions without slippage. This is the _"amountOutMin (uint256)"_ when you are buying manual in BSC Scan. I recommend let this paramater in zero (0), because it is very hard to know if a token can move 2% or 10% or even 40%. If you configure this, maybe you can lost the opportunity to buy a token. Likewise, if there is support in this project, I will add this feature in next releases.
-
-<H2>Gift a Coffee</H2>
-We appreciate any donations you can make, if you make some profit with this tool. Donations will help us with supporting new features to this project. If you'd like to donate, you can send ETH/BNB/BUSD/any shitcoin to:
-
-**BSC** BEP20 address: 0xC98e2615bD0F86aab4bDc1b742d7E816426c1282
-
-<H2>Future Plan</H2>
-
- - Multiple buy
- - Auto-Sell
- - Show profit
- - Custom Slippage (DONE)
- - Bot Protection check (DONE)
-
-## TROUBLESHOOT
-There are some reason tx could fail:
-- Your gas price is too small. I told you so.
-- You do not have enough balance to pay the fee + the purchase. Remember you need BNB to pay gas fees, even if you are using BUSD to buy a token.
+ - It's the same buy process but instead using `--buy` you have to use **`--sell`**, and you have to change `-a` for the amount of tokens that to want to sell. For example if you want to sell "10 CAKE" you have to put `-a 10` and you will swap 10 CAKE for BNB. If you want to sell all your token balance, you have to use **`--sellAll`** function.
