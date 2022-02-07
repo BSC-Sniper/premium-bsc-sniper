@@ -2,6 +2,34 @@
 
 BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap or ApeSwap listing/launches, for both BNB and BUSD pairs.. Easy to use. Run locally in your machine.
 
+**Features**:
+
+  * Buy/Sell functions with BNB, BUSD and/or USDT
+  * Detect liquidity and execute the purchase instantly.
+  * Settings:
+    * Gas (in GWEI)
+    * Slippage (in %)
+    * Spender Pair (BNB, BUSD, USDT)
+    * Contract allowance (Approve)
+    * Bot-Protection Detection
+    * Desired Minimum Liquidity (in tokens)
+  * Views: 
+    * Your BNB and specific contract balances
+    * Token price (if liquidity exists)
+    * Liquidity (in tokens)
+    * Contract allowance (Approve)
+    * Speed Test (time elapsed since the execution)
+  * Supported DEX:
+    * PancakeSwap
+    * ApeSwap
+    * BiSwap
+    * BabySwap
+    * Any Swap on BSC that has router/factory contracts.
+  * Sell after Buy (if you want)
+  * Sell all (sell all your tokens from one contract).
+  * Technical Support
+  * Documentation
+
 **If you want the instructions in English go [here](https://github.com/BSC-Sniper/free-bsc-sniper/blob/main/README-english.md)**
 
 <H2>Watch the video tutorial</H2>
