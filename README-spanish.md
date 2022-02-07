@@ -145,21 +145,6 @@ bscsniper.exe -c 0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82 -s BNB -g 5 -a 10 --
 ```
  - Es el mismo proceso de comprar pero en vez de usar `--buy`, debes usar **`--sell`**, y tienes que cambiar  `-a` por la cantidad de tokens que quieras vender por BNB. Por ejemplo, si quieres vender " 10 CAKE", debes colocar `-a 10` y vas a cambiar 10 CAKE por BNB, al precio del momento. **Importante: La caracteristica de vender solo funciona para BNB, no para BUSD, por ahora**
 
-Te estaras preguntando **"donde pongo el SLIPPAGE?**... bueno, esta es una primera version del script, y funciona hasta ahora MUY BIEN. Cuando estas en una enlistamiento de un token, sabrás que debes poner un SLIPPAGE alto. Esto le dice a la BSC cuantos tokens minimos vas a recibir por la compra (en caso de que el precio cambie rápidamente). Esta herramienta, por ahora, esta configurado para que ejecute la transacción sin slippage. Este es el campo de _"amountOutMin (uint256)"_ cuando estas comprando manual en la BSCSCAN. Yo recomiendo dejar este parametro en cero (0), porque es MUY dificil saber si el precio de un token en un enlistamiento puede cambiar un 2% o 10% o incluso un 40%. Si configuras este campo, podrías perder la oportunidad de comprar el token. De igual manera, si este proyecto es existoso, agregaré esta caracteristica en un futuro para que puedas configurarlo.
-
-<H2>Donaciones</H2>
-Apreciamos cualquier donación que puedas hacer, si y solo sí, haces un buen profit con esta herramienta. Las donaciones ayudan a soportar este proyecto y las futuras caracteristicas a incluir. Puedes donar cualquier cosa que quieras, puedes enviar ETH/BNB/BUSD/cualquier shitcoin a:
-
-**BSC** BEP20 address: 0xC98e2615bD0F86aab4bDc1b742d7E816426c1282
-
-<H2>Planes futuros</H2>
-
- - Multiples compras; dependiendo del precio. Sabemos que el precio en un enlistamiento puede fluctuar. Queremos aprovechar las bajadas.
- - Auto-Venta; que pueda vendar automaticamente si el precio sube un % que quieras. Recuerda que esto igualmente lo puedes hacer YA pero es manual, con el flag `--sell`.
- - Show profit; cuando compres y vendas, te muestre en cuanto compraste, cuanto vendiste, y cual fue tu profit.
- - Slippage personalizado; que puedas especificar el slippage que quieras usar. (HECHO)
- - Validar Bot Protection (HECHO)
-
 ## PROBLEMAS
 Hay algunas razones por las cuales tu transaccion puede fallar:
  - La configuracion del gas es muy pequeño.  Te lo dije arriba!!!
