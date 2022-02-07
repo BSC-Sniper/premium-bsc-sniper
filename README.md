@@ -30,7 +30,8 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
   * Technical Support
   * Documentation
 
-[E-Mail me if you want to buy the Sniper](mailto:bscsniper2022@gmail.com?subject=I%20Want%20The%Sniper)
+[E-Mail me if you want to buy the Sniper](mailto:bscsniper2022@gmail.com?subject=I Want The Sniper)
+
 [Join Our Community in Telegram](https://t.me/+RiiJuf9gGpxlZGUx)
 
 **If you want the instructions in English go [here](https://github.com/BSC-Sniper/free-bsc-sniper/blob/main/README-english.md)**
@@ -42,5 +43,9 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
 ### -----
 
 Siempre que sale un proyecto nuevo en la red BSC nos frustamos porque no podemos comprar al momento de la salida. BSC Sniper es una herramienta que te ayudará a comprar token de proyectos en la red BSC que sean listados en PancakeSwap o ApeSwap mucho más rápido que cualquiera. Es fácil de usar. Corre localmente en tu máquina.
+
+[Enviame un correo electrónico si quieres comprar el Sniper](mailto:bscsniper2022@gmail.com?subject=Quiero el Sniper)
+
+[Únete a nuestra comunidad en Telegram](https://t.me/+RiiJuf9gGpxlZGUx)
 
 **Si quieres las instrucciones en Español ve [aqui](https://github.com/BSC-Sniper/free-bsc-sniper/blob/main/README-spanish.md)**
