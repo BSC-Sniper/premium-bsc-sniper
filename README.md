@@ -30,6 +30,9 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
   * Technical Support
   * Documentation
 
+[E-Mail me if you want to buy the Sniper](mailto:bscsniper2022@gmail.com?subject=I%20Want%20The%Sniper)
+[Join Our Community in Telegram](https://t.me/+RiiJuf9gGpxlZGUx)
+
 **If you want the instructions in English go [here](https://github.com/BSC-Sniper/free-bsc-sniper/blob/main/README-english.md)**
 
 <H2>Watch the video tutorial</H2>
