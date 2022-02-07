@@ -13,9 +13,13 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
     * Contract allowance (Approve)
     * Bot-Protection Detection
     * Desired Minimum Liquidity (in tokens)
+    * Max Sell Tax
+    * Max Buy Tax
   * Views: 
     * Your BNB and specific contract balances
     * Token price (if liquidity exists)
+    * Check if contract appears to be a Honeypot
+    * Check if contract has taxes
     * Liquidity (in tokens)
     * Contract allowance (Approve)
     * Speed Test (time elapsed since the execution)

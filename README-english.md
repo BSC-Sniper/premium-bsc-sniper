@@ -51,41 +51,30 @@ You can find this information directly in ApeSwap (ApeFactory and ApeRouter): ht
 
 For example. you would have to change _"0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"_ to _"0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6"_.
 
-<H2>Functions</H2>
-
-Ok. What functions you will have availables to use:
-
- - Check if LP contract has been created for a pair token (ie CAKE/BNB or CAKE/BUSD) (by default)
- - Check liquidity (by default)
- - Check your balance (optional)
- - Check prices if you want. For example if you are using CAKE, the script will show you the CAKE price in USD. (optional)
- - Check if a specific token is already approved. If not, the script will approve. Likewise you can check this information in BSCScan putting your wallet address, and revoke them (if needed) (https://bscscan.com/tokenapprovalchecker). If you already approved before any token, you know that it has a fee (around 0.12 USD). You will be able to see that transaction, don't worry. (This is optional, and you should have done it before the listing, if you want to sell quickly.)
- - Buy a token faster than anyone (if you use the correct parameters). That's why you are here, I know.
- - Sell a token.
- - Set slippage (buy only)
- - Bot Protection check (BPEnabled)
-
  <H2>How I use all these functions</H2>
 
  Easy piece. If you followed correctly the "Getting started" and the "Configuration File", you are ready to start.
 
  In your cmd (remember, you must be in the folder where .exe is), execute .exe --help or -h. You will find all these options I mentioned before.
 ```
-  -h, --help            show this help message and exit
-  --spend SPEND, -s SPEND
-                        Spender Symbol BNB or BUSD
-  --gas GAS, -g GAS     Gas
-  --amount AMOUNT, -a AMOUNT
-                        Amount to buy/sell
-  --contract CONTRACT, -c CONTRACT
-                        Contract of the Token
-  --approval, -A        Check allowance
-  --sell                Selling Process only BNB)
-  --buy                 Buying Process (only BNB or BUSD)
-  --balances, -b        Check your balances (optional)
-  --price, -p           Check token price (optional)
-  --slippage, -sp       Set the slippage in percentage (buy only) (optional)
-  --bpEnabled, -bp      Check if Bot Protection exists (optional)
+ -h, --help                             show this help message and exit
+  --spend SPEND, -s SPEND               Spender Symbol BNB or BUSD or USDT
+  --gas GAS, -g GAS                     Gas
+  --amount AMOUNT, -a AMOUNT            Amount to buy/sell
+  --contract CONTRACT, -c CONTRACT      Contract of the Token
+  --approval, -A                        Check allowance
+  --sell                                Selling Process
+  --buy                                 Buying Process
+  --balances, -b                        Check your balances (optional)
+  --price, -p                           Check token price (optional)
+  --bpEnabled, -bp                      Check for Bot Protection (optional)
+  --slippage SLIPPAGE, -sp SLIPPAGE     Slippage in percentage. Zero by default
+  --liquidity LIQUIDITY, -lp LIQUIDITY  Minimium Token in LP to buy/sell
+  --sellAll                             Sell all your contract balance tokens
+  --checkHoneypot, -hp                  Check if the contract appears to be a honeypot
+  --checkTaxes, -tax                    Check if the contract has buy/sell taxes.
+  --maxBuyTax MAXBUYTAX                 Set maxBuyTax.
+  --maxSellTax MAXSELLTAX               Set maxSellTax.
 ```
  So, first, the **REQUIRED** arguments are the CONTRACT (token you want to buy) and what pair you'll use.
 

@@ -75,21 +75,24 @@ Ok. Que funciones tienes disponibles para usar:
 
  En tu linea de comando cmd (recuerda, debes estar en la carpeta donde descomprimiste los archivos), execute `bscsniper.exe --help` or `-h`. Ahí encontraras todas las opciones que mencioné antes:
 ```
-  -h, --help            show this help message and exit
-  --spend SPEND, -s SPEND
-                        Spender Symbol BNB or BUSD
-  --gas GAS, -g GAS     Gas
-  --amount AMOUNT, -a AMOUNT
-                        Amount to buy/sell
-  --contract CONTRACT, -c CONTRACT
-                        Contract of the Token
-  --approval, -A        Check allowance
-  --sell                Selling Process only BNB)
-  --buy                 Buying Process (only BNB or BUSD)
-  --balances, -b        Check your balances (optional)
-  --price, -p           Check token price (optional)
-  --slippage, -sp       Set the slippage in percentage (buy only) (optional)
-  --bpEnabled, -bp      Check if Bot Protection exists (optional)
+  -h, --help                             show this help message and exit
+  --spend SPEND, -s SPEND               Spender Symbol BNB or BUSD or USDT
+  --gas GAS, -g GAS                     Gas
+  --amount AMOUNT, -a AMOUNT            Amount to buy/sell
+  --contract CONTRACT, -c CONTRACT      Contract of the Token
+  --approval, -A                        Check allowance
+  --sell                                Selling Process
+  --buy                                 Buying Process
+  --balances, -b                        Check your balances (optional)
+  --price, -p                           Check token price (optional)
+  --bpEnabled, -bp                      Check for Bot Protection (optional)
+  --slippage SLIPPAGE, -sp SLIPPAGE     Slippage in percentage. Zero by default
+  --liquidity LIQUIDITY, -lp LIQUIDITY  Minimium Token in LP to buy/sell
+  --sellAll                             Sell all your contract balance tokens
+  --checkHoneypot, -hp                  Check if the contract appears to be a honeypot
+  --checkTaxes, -tax                    Check if the contract has buy/sell taxes.
+  --maxBuyTax MAXBUYTAX                 Set maxBuyTax.
+  --maxSellTax MAXSELLTAX               Set maxSellTax.
 ```
  Entonces, primero, los parametros **REQUERIDOS** son 1. el CONTRACTO (token que quieres comprar/vender) y 2. el pair que vas a gastar (BNB o BUSD).
 
