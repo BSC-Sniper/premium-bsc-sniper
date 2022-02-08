@@ -12,7 +12,7 @@ BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap o
 
 1. Clone (Download) this repository <a href="https://github.com/BSC-Sniper/premium-bsc-sniper">here</a>.
 2. You will download a .zip, extract it in your Desktop or any folder you want.
-3. You will find a folder called _"premium-bsc-sniper"_ and into it around 56 files (**DO NOT DELETE ANY FILES OR MODIFY ANYTHING**). The most important ones are these:
+3. You will find a folder called _"premium-bsc-sniper"_ and into it a few files (**DO NOT DELETE ANY FILES OR MODIFY ANYTHING**). These files:
     - **config.json** ; the most important one. This file contain your information
     - **abi.json** ; this is the contracts ABI. You won't need to change anything in this file, if not needed.
     - **bscsniper.exe** ; the executable, the magic.
