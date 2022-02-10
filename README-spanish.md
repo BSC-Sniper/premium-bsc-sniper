@@ -45,7 +45,7 @@ Asegurate de cambiar `YOUR_WALLET_HERE` y `YOUR_PRIVATE_HERE` por tu informacion
 - **BNB**: token WBNB. Es usado si quieres comprar/vender/aprobar un token con este pair (BNB). No necesitas cambiar nada aquí. Puedes validar la información en CMC: https://coinmarketcap.com/currencies/wbnb/
 - **BUSD**: token BUSD. Es usado si quieres comprar/vender/aprobar un token con este pair (BUSD). No necesitas cambiar nada aquí. Puedes validar la información en CMC: https://coinmarketcap.com/currencies/busd/
 
-**IMPORTANTE**: Si, lo sé.. Sé que el parametro de "yourPrivateKey" te asusta (a mi también me asustó al principio), pero lo necesitaras si quieres comprar un token más rápido que cualquiera.
+**IMPORTANTE**: Si, lo sé.. Sé que el parametro de "yourPrivateKey" te asusta (a mi también me asustó al principio), pero lo necesitaras si quieres comprar un token más rápido que cualquiera. Te recomiendo **NO** usar tu billetera principal. De ser necesario, crea una nueva solo para el Sniper, **POR TU PAZ MENTAL**.
 
 Otra cosa, si el token que quieres comprar se está listando en ApeSwap, necesitarás cambiar los parámetros de "pancakeFactory" and "pancakeRouter". Pero SOLO CAMBIA LOS VALORES (contractos), NO CAMBIES LOS NOMBRES. No importa si el archivo dice "pancakeFactory" y el valor es el contracto de ApeSwap. NO CAMBIES EL NOMBRE, solo los contractos, o el script va a fallar.
 
