@@ -43,7 +43,7 @@ Be sure to change `YOUR_WALLET_HERE` and `YOUR_PRIVATE_HERE` for your informatio
 - **BNB**: WBNB token. It's used if you want to buy/sell/appove with this pair. You don't need to change anything here. You can check it here: https://coinmarketcap.com/currencies/wbnb/
 - **BUSD**: BUSD token. It's used if you want to buy/sell/appove with this pair. You don't need to change anything here. You can check it here: https://coinmarketcap.com/currencies/busd/
 
-**IMPORTANT**: Yes, I know the "yourPrivateKey" param scares you (it scared me too at first), but you need it to buy (sign transactions) faster than anyone.
+**IMPORTANT**: Yes, I know the "yourPrivateKey" param scares you (it scared me too at first), but you need it to buy (sign transactions) faster than anyone. I recommend you to use a new wallet just for the sniper. **Do not use your main wallet, for your peace of mind.**
 
 If the token that you want to buy in listing is in ApeSwap, you'll need to change "pancakeFactory" and "pancakeRouter" params. But ONLY CHANGE the values (contracts), DO NOT CHANGE THE NAMES. It doesn't matter if it says "pancakeFactory" with ApeSwap Factory Contract. DO NOT CHANGE THE NAME, or the script will fail.
 
