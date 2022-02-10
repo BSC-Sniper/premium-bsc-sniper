@@ -2,7 +2,7 @@
 
 Siempre que sale un proyecto nuevo en la red BSC nos frustamos porque no podemos comprar al momento de la salida. 
 
-BSC Sniper es una herramienta que te ayudará a comprar token de proyectos en la red BSC que sean listados en PancakeSwap o ApeSwap mucho más rápido que cualquiera. Es fácil de usar, y corre local en tu máquina. No necesitas enviarme nada, solo una pequeña donación si esto funciona para ti :D
+BSC Sniper es una herramienta que te ayudará a comprar token de proyectos en la red BSC que sean listados en PancakeSwap o ApeSwap mucho más rápido que cualquiera. Es fácil de usar, y corre local en tu máquina.
 
 <H2>Prerequisitos</H2>
 
