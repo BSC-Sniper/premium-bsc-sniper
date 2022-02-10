@@ -1,6 +1,6 @@
 ### BSC Sniper
 
-BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap or ApeSwap listing/launches, for both BNB and BUSD pairs.. Easy to use, and it run locally in your machine. You don't need to send me anything, maybe a little donation if this works for you. :D
+BSC Sniper is a tool that helps you to buy BSC project's tokens in Pancakeswap or ApeSwap listing/launches, for both BNB and BUSD pairs.. Easy to use, and it run locally in your machine.
 
 <H2>Prerequisites</H2>
 
